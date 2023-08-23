@@ -4,12 +4,12 @@ variable "aws_region" {
 }
 variable "vpc_id" {
   type   = string
-  default = "vpc-04e7963fb00fe63f6"
+  default = "vpc-0f8b42c2149e46ab4"
 }
 
 variable "key_name" {
   type   = string
-  default = "olawale"
+  default = "devopsClass"
 }
 variable "ports" {
   type    = list(number)
@@ -24,5 +24,5 @@ variable "cidr_block" {
 
 variable "ami"{
     type = string
-    default = "ami-0b5eea76982371e91"
+    default = "ami-0453898e98046c639"
 }
